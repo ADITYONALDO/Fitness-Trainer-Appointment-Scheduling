@@ -83,7 +83,7 @@ To add an appointment:
     2. Click on button "Add Appointment" to add the appointment.
 
 
-## Viewing Appointsments
+## Viewing Appointments
 
 To view the appointsments:
 
