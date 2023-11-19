@@ -9,6 +9,7 @@ This is a simple web application for for Fitness Trainers for managing appointme
 - [Usage](#usage)
 - [URL Usage](#url-usage)
 - [Adding Appointments](#adding-appoinstments)
+- [Viewing Appointments](#viewing-appointments)
 - [Editing Appointments](#editing-appointments)
 - [Deleting Appointments](#deleting-appointments)
 - [Acknowledgements](#acknowledgements)
@@ -80,6 +81,14 @@ To add an appointment:
 
     1. Fill the fields designated to given columns
     2. Click on button "Add Appointment" to add the appointment.
+
+
+## Viewing Appointsments
+
+To view the appointsments:
+
+    1. Navigate to home page i.e. http://127.0.0.1:5000/#
+    2. Click on the View Appointment section on top right side of the page to view the appointments.
 
 
 ## Editing Appointments
