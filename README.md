@@ -1,4 +1,4 @@
-This is a simple web application for managing appointments. Users can add new appointments, view a list of appointments, edit existing appointments, and delete appointments.
+This is a simple web application for for Fitness Trainers for managing appointments. Users can add new appointments, view a list of appointments, edit existing appointments, and delete appointments.
 
 ## Table of Contents
 
@@ -6,6 +6,7 @@ This is a simple web application for managing appointments. Users can add new ap
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [URL Usage](#url-usage)
 - [Usage](#usage)
 - [Editing Appointments](#editing-appointments)
 - [Deleting Appointments](#deleting-appointments)
@@ -22,9 +23,8 @@ This is a simple web application for managing appointments. Users can add new ap
 
 ### Prerequisites
 
-- Python 3.x
-- Flask
-- (Add any additional prerequisites)
+- Python 3.7 or higher
+- Flask 2.0.2
 
 ### Installation
 
@@ -36,11 +36,31 @@ This is a simple web application for managing appointments. Users can add new ap
 
 2. Navigate to the project directory:
 
-cd appointment-management
+  cd Fitness-Trainer-Appointment-Scheduling
 
 3. Install dependencies:
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
+
+
+
+## URL Usage
+
+For ease of navigation throught the app, edit the URL's as given below:
+
+
+http://127.0.0.1:5000/#   (To return to home page)
+
+http://127.0.0.1:5000/add_appointment_page  (To move to Add Appointment Page)
+
+http://127.0.0.1:5000/view_appointment      (To move to View Appointment Page)
+
+http://127.0.0.1:5000/edit_appointments     (To move to Edit Appointment Page)
+
+http://127.0.0.1:5000/delete_appointments   (To move to Delete Appointment Page)
+
+
+
 
 ## Usage
 
@@ -57,7 +77,6 @@ To add an appointment:
 
     1. Fill the fields designated to given columns
     2. Click on button "Add Appointment" to add the appointment.
-
 
 
 ## Editing Appointments
@@ -81,4 +100,4 @@ To delete an appointment:
 
 ## Acknowledgements
 
-Libraries used = Flask 2.0.2
+Libraries used = Flask 3.0.0
