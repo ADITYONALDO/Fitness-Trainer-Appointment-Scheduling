@@ -36,11 +36,11 @@ This is a simple web application for for Fitness Trainers for managing appointme
 
 2. Navigate to the project directory:
 
-  cd Fitness-Trainer-Appointment-Scheduling
+    cd Fitness-Trainer-Appointment-Scheduling
 
 3. Install dependencies:
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 
