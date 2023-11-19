@@ -6,8 +6,8 @@ This is a simple web application for for Fitness Trainers for managing appointme
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [URL Usage](#url-usage)
 - [Usage](#usage)
+- [URL Usage](#url-usage)
 - [Editing Appointments](#editing-appointments)
 - [Deleting Appointments](#deleting-appointments)
 - [Acknowledgements](#acknowledgements)
@@ -45,6 +45,17 @@ This is a simple web application for for Fitness Trainers for managing appointme
 
 
 
+
+## Usage
+
+1. Run the Flask application:
+
+    python app.py
+
+2. Open your browser and navigate to http://127.0.0.1:5000. or (ctrl+click) on the link shown in the terminal.
+
+
+
 ## URL Usage
 
 For ease of navigation throught the app, edit the URL's as given below:
@@ -60,16 +71,6 @@ http://127.0.0.1:5000/edit_appointments     (To move to Edit Appointment Page)
 
 http://127.0.0.1:5000/delete_appointments   (To move to Delete Appointment Page)
 
-
-
-
-## Usage
-
-1. Run the Flask application:
-
-    python app.py
-
-2. Open your browser and navigate to http://127.0.0.1:5000. or (ctrl+click) on the link shown in the terminal.
 
 
 ## Adding Appointments
