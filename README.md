@@ -8,7 +8,7 @@ This is a simple web application for for Fitness Trainers for managing appointme
   - [Installation](#installation)
 - [Usage](#usage)
 - [URL Usage](#url-usage)
-- [Adding Appointments](#adding-appoinstments)
+- [Adding Appointments](#adding-appointments)
 - [Viewing Appointments](#viewing-appointments)
 - [Editing Appointments](#editing-appointments)
 - [Deleting Appointments](#deleting-appointments)
