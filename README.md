@@ -31,7 +31,7 @@ This is a simple web application for managing appointments. Users can add new ap
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/appointment-management.git
+   git clone https://github.com/ADITYONALDO/Fitness-Trainer-Appointment-Scheduling.git
 
 
 2. Navigate to the project directory:
