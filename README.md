@@ -24,7 +24,7 @@ This is a simple web application for for Fitness Trainers for managing appointme
 ### Prerequisites
 
 - Python 3.7 or higher
-- Flask 2.0.2
+- Flask 3.0.0
 
 ### Installation
 
