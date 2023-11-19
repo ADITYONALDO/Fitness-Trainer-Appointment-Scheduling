@@ -25,6 +25,7 @@ This is a simple web application for for Fitness Trainers for managing appointme
 
 - Python 3.10 or higher
 - Flask 3.0.0
+- VS Code or any other editor
 
 ### Installation
 
@@ -68,7 +69,7 @@ http://127.0.0.1:5000/delete_appointments   (To move to Delete Appointment Page)
 
     python app.py
 
-2. Open your browser and navigate to http://127.0.0.1:5000. or (ctrl+click) on the terminal to access the link
+2. Open your browser and navigate to http://127.0.0.1:5000. or (ctrl+click) on the link shown in the terminal.
 
 
 ## Adding Appointments
