@@ -87,7 +87,9 @@ To edit an existing appointment:
     2. Modify the details as needed.
     3. Click the "Save Changes" button to apply the changes.
 
-    Note - Editing Appointment only works for First Name, Last Name, Location. Due to some technical error Date and Time cannot be edited and Edit Appointment can't handel editing of multiple appointments. (Sorry for the inconvience. Tried my best to solve it but it didnt work)
+    Note - Editing Appointment only works for First Name, Last Name, Location. 
+          Due to some error Date and Time cannot be edited and Edit Appointment can't handel editing of multiple appointments. 
+          (Sorry for the inconvience. Tried my best to solve it but it did'nt work)
 
 
 ## Deleting Appointments
