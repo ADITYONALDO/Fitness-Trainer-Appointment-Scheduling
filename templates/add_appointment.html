@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Appointment</title>
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .floating-message {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #28a745;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+
+{% block content %}
+    <div class="container">
+        <h2>Add Appointment</h2>
+        <div id="floatingMessage" class="floating-message"></div>
+        <!-- add appointment form -->
+        <form action="/add_appointment" method="post" onsubmit="return validateForm()">
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="first_name">First Name</label>
+                    <input type="text" class="form-control" id="first_name" name="first_name" required autocomplete="off" pattern="[A-Za-z]{1,25}" title="Only letters allowed, maximum 25 characters">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" class="form-control" id="last_name" name="last_name" required autocomplete="off" pattern="[A-Za-z]{1,25}" title="Only letters allowed, maximum 25 characters">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="location">Location</label>
+                    <input type="text" class="form-control" id="location" name="location" required autocomplete="off">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="appointment_time">Appointment Time</label>
+                    <input type="datetime-local" class="form-control" id="appointment_time" name="appointment_time" required autocomplete="off">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Appointment</button>
+        </form>
+    </div>
+
+    <script>
+        function validateForm() {
+            var firstName = document.getElementById('first_name').value;
+            var lastName = document.getElementById('last_name').value;
+
+            // Custom validation for only letters and maximum 25 characters
+            var lettersOnly = /^[A-Za-z]+$/;
+            if (!lettersOnly.test(firstName) || !lettersOnly.test(lastName)) {
+                alert('First Name and Last Name should contain only letters.');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var floatingMessage = document.getElementById('floatingMessage');
+                    floatingMessage.innerHTML = '<strong>{{ messages[0] }}</strong>';
+                    floatingMessage.style.display = 'block';
+
+                    setTimeout(function() {
+                        floatingMessage.style.display = 'none';
+                    }, 5000);
+                });
+            </script>
+        {% endif %}
+    {% endwith %}
+{% endblock %}
+
+
+</body>
+</html>
