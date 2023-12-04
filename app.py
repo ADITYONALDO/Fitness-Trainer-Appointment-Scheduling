@@ -75,7 +75,7 @@ def edit_appointment():
                 appointment['first_name'] = edited_first_name
                 appointment['last_name'] = edited_last_name
                 appointment['location'] = edited_location
-                appointment['appointment_time'] = edited_appointment_time
+                appointment['appointments'][0] = edited_appointment_time
 
         flash('Appointment edited successfully!', 'success')
 
