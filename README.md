@@ -100,8 +100,8 @@ To edit an existing appointment:
     3. Click the "Save Changes" button to apply the changes.
 
 
-    Developers Suggestion - edit one appointment at a time and press 'Save Changes' button to save the data. 
-                            (Example - Edit appointment 1 and press Save Changes button to save, then edit appointment 2 and so on)
+    Developers Note - edit one appointment at a time and press 'Save Changes' button to save the data. 
+                      (Example - Edit appointment 1 and press Save Changes button to save, then edit appointment 2 and so on)
              
 
 
