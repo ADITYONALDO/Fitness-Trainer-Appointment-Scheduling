@@ -15,6 +15,7 @@ def index():
     return render_template('index.html', appointments=appointments_data)
 
 # Add appointment
+
 @app.route('/add_appointment_page/')
 def add_appointment_page():
     return render_template('add_appointment.html')
