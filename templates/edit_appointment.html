@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -51,7 +50,7 @@
                         <td><input type="text" name="edited_first_name_{{ appointment.id }}" value="{{ appointment.first_name }}" readonly></td>
                         <td><input type="text" name="edited_last_name_{{ appointment.id }}" value="{{ appointment.last_name }}" readonly></td>
                         <td><input type="text" name="edited_location_{{ appointment.id }}" value="{{ appointment.location }}" readonly></td>
-                        <td><input type="datetime-local" name="edited_appointment_time_{{ appointment.id }}" value="{{ appointment.appointment_time }}" readonly></td>
+                        <td><input type="datetime-local" name="edited_appointment_time_{{ appointment.id }}" value="{{ appointment.appointments[0] }}" readonly></td>
                         <td>
                             <input type="hidden" name="edited_appointment_id" value="{{ appointment.id }}">
                             <button type="button" class="btn btn-primary" onclick="enableEditing('{{ appointment.id }}')">Edit</button>
