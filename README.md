@@ -95,9 +95,10 @@ To view the appointsments:
 
 To edit an existing appointment:
 
-    1. Click on the "Edit" button next to the appointment you want to edit.
-    2. Modify the details as needed.
-    3. Click the "Save Changes" button to apply the changes.
+    1. Navigate to Edit Appointment page.
+    2. Click on the "Edit" button next to the appointment you want to edit.
+    3. Modify the details as needed.
+    4. Click the "Save Changes" button to apply the changes.
 
 
     Developers Note - edit one appointment at a time and press 'Save Changes' button to save the data. 
