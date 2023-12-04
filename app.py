@@ -58,7 +58,6 @@ def view_appointments():
 
 @app.route('/edit_appointments')
 def edit_appointments():
-    print(appointments_data)
     return render_template('edit_appointment.html', appointments=appointments_data)
 
 @app.route('/edit_appointment', methods=['GET','POST'])
