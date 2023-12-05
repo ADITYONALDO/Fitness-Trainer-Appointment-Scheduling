@@ -122,22 +122,31 @@ To delete an appointment:
 Home Page - 
 ![image](https://github.com/ADITYONALDO/Fitness-Trainer-Appointment-Scheduling/assets/91738311/356c61a5-380f-4d45-b357-d610e465f791)
 
+
 Add Appointment Page - 
 ![image](https://github.com/ADITYONALDO/Fitness-Trainer-Appointment-Scheduling/assets/91738311/f9570d63-8187-44fb-ab60-36b392877add)
+
 ![image](https://github.com/ADITYONALDO/Fitness-Trainer-Appointment-Scheduling/assets/91738311/3d09867b-48be-4366-a895-3f5ca5a95e2c)  (Displaying message after appointment is added)
+
 
 View Appointment Page - 
 ![image](https://github.com/ADITYONALDO/Fitness-Trainer-Appointment-Scheduling/assets/91738311/840b5639-2d23-4f9e-b854-393fb6e0427b)
 
+
 Edit Appointment Page - 
 ![image](https://github.com/ADITYONALDO/Fitness-Trainer-Appointment-Scheduling/assets/91738311/819c781a-6346-479d-9b67-b46966f5b944)
+
 ![image](https://github.com/ADITYONALDO/Fitness-Trainer-Appointment-Scheduling/assets/91738311/fc174c6a-0870-4b05-a42e-c3bd66206281)  (Editing appointment after pressing 'Edit' button)
+
 ![image](https://github.com/ADITYONALDO/Fitness-Trainer-Appointment-Scheduling/assets/91738311/e7f55b9e-19f7-45d4-a05e-7c8a5dd6c0c1)  (Showing message when edited appointment is edited)
+
 
 
 Delete Appointment Page - 
 ![image](https://github.com/ADITYONALDO/Fitness-Trainer-Appointment-Scheduling/assets/91738311/06794453-fd86-442a-b62f-49f183b06b09)  (Showing new data after changes are made in edit appointment)
+
 ![image](https://github.com/ADITYONALDO/Fitness-Trainer-Appointment-Scheduling/assets/91738311/9f1e31ae-71bf-49c7-a00b-f3ea700fef62)  (Showing a confirmation step before deleting an appointment)
+
 ![image](https://github.com/ADITYONALDO/Fitness-Trainer-Appointment-Scheduling/assets/91738311/3cb5bf98-c3bb-4d90-98dd-cd1bb107ab61)  (Showing message when an appointment is deleted)
 
 
